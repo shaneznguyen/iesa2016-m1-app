@@ -16,7 +16,7 @@
 		1C2690FA1D194B58002EF178 /* MyLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2690F91D194B58002EF178 /* MyLibraryTests.swift */; };
 		1C2691051D194B58002EF178 /* MyLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2691041D194B58002EF178 /* MyLibraryUITests.swift */; };
 		1C2691131D196BAA002EF178 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2691121D196BAA002EF178 /* Book.swift */; };
-		1C2691151D196D9C002EF178 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2691141D196D9C002EF178 /* File.swift */; };
+		1C2691151D196D9C002EF178 /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2691141D196D9C002EF178 /* BookStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		1C2691041D194B58002EF178 /* MyLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLibraryUITests.swift; sourceTree = "<group>"; };
 		1C2691061D194B58002EF178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C2691121D196BAA002EF178 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Book.swift; path = MyLibrary/Book.swift; sourceTree = "<group>"; };
-		1C2691141D196D9C002EF178 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = MyLibrary/File.swift; sourceTree = "<group>"; };
+		1C2691141D196D9C002EF178 /* BookStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookStore.swift; path = MyLibrary/BookStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				1C2691121D196BAA002EF178 /* Book.swift */,
-				1C2691141D196D9C002EF178 /* File.swift */,
+				1C2691141D196D9C002EF178 /* BookStore.swift */,
 				1C2690E11D194B58002EF178 /* MyLibrary */,
 				1C2690F81D194B58002EF178 /* MyLibraryTests */,
 				1C2691031D194B58002EF178 /* MyLibraryUITests */,
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C2691151D196D9C002EF178 /* File.swift in Sources */,
+				1C2691151D196D9C002EF178 /* BookStore.swift in Sources */,
 				1C2690E71D194B58002EF178 /* DetailViewController.swift in Sources */,
 				1C2691131D196BAA002EF178 /* Book.swift in Sources */,
 				1C2690E51D194B58002EF178 /* MasterViewController.swift in Sources */,
